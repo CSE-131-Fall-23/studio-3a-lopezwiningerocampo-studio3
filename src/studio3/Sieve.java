@@ -9,11 +9,10 @@ public class Sieve {
 Scanner in = new Scanner (System.in);
 System.out.println("Enter n ");
  int n = in.nextInt();
-		boolean [] sieve = {n};
+		boolean [] sieve = {};
 		for (int i = 0; i < n; i++){
 			System.out.println(sieve[i]);
 			if (i%2==0) {
-				i = false;
 			}
 		}
 	}
